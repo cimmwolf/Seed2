@@ -22,6 +22,8 @@ REQUIREMENTS
 * РHP 7.0
 * Node 8.9
 * Yarn 1.5
+* Bower (global)
+* Gulp (global)
 * Composer 1.6 
 
 
@@ -34,5 +36,5 @@ HOW TO RUN LOCALLY
 2. установите необходимые пакеты командой `yarn install-packages`;
 2. загрузите базу данных командой: `gulp sync-database`;
 4. соберите сайт командой `gulp`;
-3. запустите PHP сервер с роутером router.php.  
+3. запустите PHP сервер с роутером router.php и корневой директорией web/.  
 Пример: `php -S 127.0.0.1:80 -t web router.php` 
